@@ -3,299 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aqua Balance</title>
+    <title>Document</title>
 
-    <!-- !FONTS AND LINKS ===================================================================== -->
-
+    <!-- !LINKS ============================================================================= -->
+    <link rel="stylesheet" href="./main/styles.css">
     <script src="https://kit.fontawesome.com/fca5520d90.js" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
 
+
+    <!-- *Fonts: -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,800&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@200;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;600;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;600;800&family=Nunito:wght@200;300;400;500;600;800;1000&family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;300;400;500;600;700;800;900&family=Lexend+Giga:wght@900&family=Lexend:wght@600&display=swap" rel="stylesheet">
 
 
-</head> 
+
+</head>
 <body>
-    <header>
-        <!-- <nav>
-            <h1>AB</h1>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Join Us</a></li>
-                <li><a href="#"><i class="fa-solid fa-bars"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-microchip hover"></i></a></li>
-            </ul>
-        </nav> -->
-    </header>
-    <section id="HomePage">
-        <img src="./main/img/bg.jpg" alt="" class="parallax bg-img" data-speedx="0.2" data-speedy="0.2">
-        <img src="./main/img/fore_coral.png" alt="" class="parallax coral" data-speedx="0.1" data-speedy="0.1">
-        <img src="./main/img/turtle.png" alt="" class="parallax turtle" data-speedx="0.07" data-speedy="0.07">
 
-        <div class="text parallax" data-speedx="0.04" data-speedy="0.04">
-            <h2>OCEAN</h2>
-            <h1>ACIDIFICATION</h1>
-        </div>
-    </section>
+    <!-- !NAVBAR ======================================================================================= -->
+    <!-- !NAVBAR ======================================================================================= -->
+    <!-- !NAVBAR ======================================================================================= -->
+    <!-- !NAVBAR ======================================================================================= -->
 
- <!-- !SUB_STATS ============================================================================================= -->
+    <nav>
+        <h1><b>L</b>ogo</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Access</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <!-- !MAIN ======================================================================================= -->
+    <!-- !MAIN ======================================================================================= -->
+    <!-- !MAIN ======================================================================================= -->
+    <!-- !MAIN ======================================================================================= -->
 
-    <section id="statistics">
-        <div class="stat s-1">
-            <h1 class="stat-main animate-left">84%</h1>
-            <h2 class="stat-sb animate-left">Deaths</h2>
-            <p class="stat-desc animate-left">of marine animals is due to ocean acidification</p>
-        </div>
-        <div class="stat s-2">
-            <h1 class="stat-main animate-top">30%</h1>
-            <h2 class="stat-sb animate-top">of CO<sub>2</sub></h2>
-            <p class="stat-desc animate-top">absorbed by the oceans worldwide annually</p>
-        </div>
-        <div class="stat s-3">
-            <h1 class="stat-main animate-right">8.1</h1>
-            <h2 class="stat-sb animate-right">pH</h2>
-            <p class="stat-desc animate-right">current average pH of the oceans worldwide</p>
-        </div>
-    </section>
+    <div class="whole">
 
 
 
-
- <!-- !CHART ============================================================================================= -->
-
-    <section id="chart">
-        <div class="heading chart-head">
-            <h1 class="animate-left">Acidity of the Oceans in the Past Millenium</h1>
-            <h2 class="animate-left">The ocean's pH has been dropping at a staggering rate in the past 
-                millenium. Animals aren't able to evolve at such a fast rate and 
-                the results are devestating.
-            </h2>
-        </div>
-        <div class="chart-div pHchart animate-right">
-            <canvas id="lineChart"></canvas>
-        </div>
-    </section>
-
- <!-- !About OA ============================================================================================= -->
-
-    <section id="About">
-        <div class="gif-div animate-left">
-            <img src="./main/img/about.gif" alt="">
-        </div>
-        <div class="about-head">
-            <h1 class="animate-right">What Actually is Ocean Acidification?</h1>
-            <h2 class="animate-right">Ocean acidification is  the process of the steady 
-                decline in the pH levels of the ocean due to uptake of CO2 by the ocean 
-                from the atmosphere over variable periods of time. 
-            </h2>
-        </div>
-    </section>
-
-
-
-<!-- !About OA ============================================================================================= -->
-
-    <section id="Humans">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="marine-q">
-                    <h1 class="animate-top">POISON ALGAE</h1>
-                    <p class="animate-top">In the laboratory, many harmful algal species produce more 
-                        toxins and bloom faster in acidified waters.
-                    </p>
-                    <img class="animate-top" src="./main/img/poison_algae.jpg" alt="">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="marine-q q1">
-                    <h1>MALNUTRITION</h1>
-                    <p>More people will be found malnourished and poisoned due to 
-                        altered food quantity and quality.
-                    </p>
-                    <img src="./main/img/food-poision.jpg" alt="">
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="marine-q">
-                    <h1>DEVELOPMENT</h1>
-                    <p>We will be facing decreased oppurtunity to develop and obtain
-                        medical resources, food resources, etc. due to loss of biodiversity.
-                    </p>
-                    <img id="quickFix" src="./main/img/8e8c72a1459ad7332b14306bea1af865.gif" alt="">
-                </div>
-              </div>
+        <!-- !HERO-SECTION ======================================================================================= -->
+        <!-- !HERO-SECTION ======================================================================================= -->
+        <!-- !HERO-SECTION ======================================================================================= -->
+        <!-- !HERO-SECTION ======================================================================================= -->
+        
+        
+        <section id="hero">
+            <div class="hero-box">
+                <h1>GET THINGS DONE. FAST. NO WORRIES.</h1>
+                <p>Lorem ipsum dolor set amit and something ssol eter few wed and that this is cool as well and we love it.</p>
+                <a href="#">Explore!</a>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
+            <img src="./main/img/hero_img.png" class="hero-img">
+        </section>
 
 
+        <!-- !BENIFITS ======================================================================================= -->
+        <!-- !BENIFITS ======================================================================================= -->
+        <!-- !BENIFITS ======================================================================================= -->
+        <!-- !BENIFITS ======================================================================================= -->
+
+        <section id="benifits">
 
 
-
-
-
-    <!-- !About OA ============================================================================================= -->
-
-    <section id="Marine">
-        <div id="carouselExample2" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="marine-q q1">
-                    <h1 class="animate-top">ANIMAL SHELLS</h1>
-                    <p class="animate-top">
-                        Increased acidity slows the growth of calcium carbonate structures, and 
-                        under severe conditions, can dissolve structures faster than they form.
-                        If the acidity of seawater is beyond the optimum range for that 
-                        organism, its body must use more energy to maintain healthy body 
-                        fluid chemistry. Organisms can often compensate when faced with
-                        increased acidity, but this comes at the expense of using energy to 
-                        grow critical body parts like muscle or shell. For example, scientists 
-                        have found that mussels, sea urchins, and crabs start to dissolve their
-                        protective shells to counter elevated acidity in their body fluids. 
-                        So even if an organism can adjust to survive increasing acidity its 
-                        overall health can be impaired.
-                    </p>
+            <div class="ben-1">
+                <div class="ben-head">    
+                    <h1>QUICK ACCESS. ANYWHERE.</h1>
+                    <i class="fa-solid fa-eye"></i>
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="marine-q">
-                <p>Increased acidity slows the growth of calcium carbonate structures, and 
-                    under severe conditions, can dissolve structures faster than they form.
-                    If the acidity of seawater is beyond the optimum range for that 
-                    organism, its body must use more energy to maintain healthy body 
-                    fluid chemistry. Organisms can often compensate when faced with
-                    increased acidity, but this comes at the expense of using energy to 
-                    grow critical body parts like muscle or shell. For example, scientists 
-                    have found that mussels, sea urchins, and crabs start to dissolve their
-                    protective shells to counter elevated acidity in their body fluids. 
-                    So even if an organism can adjust to survive increasing acidity its 
-                    overall health can be impaired.
-                </p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="marine-q q1">
-                    <img id="quickFix" src="./main/img/y04NWp.gif" alt="">
-                </div>
-              </div>
+                <p>Lorem ipsum dolor set amit and something ssol eter few wed and that this is cool as well and we love it.</p>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </section>
 
-
-
-
-
-
-
-<!-- !About OA ============================================================================================= -->
-
-    <section id="Marine">
-        <div id="carouselExample3" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="marine-q">
-                        <h1 class="animate-top">Raise Awareness and Education</h1>
-                        <p class="animate-top">
-                            Educate the public, policymakers, and businesses about the 
-                            causes and consequences of ocean acidification.
-                        </p>
-                        <img class="animate-top" id="quickFix" src="./main/img/raise_awareness.jpg" alt="">
-                    </div>
+            
+            <div class="ben-2">
+                <div class="ben-head">  
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                    <h1>GET THINGS DONE. FASTER</h1>
                 </div>
-            <div class="carousel-item">
-                <div class="marine-q q1">
-                    <h1>Scientific Research</h1>
-                    <p>Invest in and support ongoing research to better understand the 
-                        mechanisms and effects of ocean acidification. Encourage 
-                        interdisciplinary research to study the impacts on marine 
-                        life, ecosystems, and climate.
-                    </p>
-                    <img id="quickFix" src="./main/img/science.gif" alt="">
+                <p>Lorem ipsum dolor set amit and something ssol eter few wed and that this is cool as well and we love it.</p>
+            </div>
+
+
+            <div class="ben-1 b3">
+                <div class="ben-head">    
+                    <h1>INTEGRATE TECHNOLOGY.</h1>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p>Lorem ipsum dolor set amit and something ssol eter few wed and that this is cool as well and we love it.</p>
+            </div>
+        </section>
+
+
+        <section id="buttons">
+            <div class="marquee">
+                <div class="button-wrapper">    
+                    <div class="button button-1"><h1>1</h1><h2>YOUR <br> TEXTBOOKS</h2></div>
+                    <div class="button button-1"><h1>2</h1><h2>ETH DIGITAL <br> CAMPUS</h2></div>
+                    <div class="button button-1"><h1>3</h1><h2>CBSE WEBSITE <br> LINK</h2></div>
+                </div> 
+                <div class="button-wrapper">
+                    <div class="button button-1"><h1>4</h1><h2>YOUR <br> TIMETABLE</h2></div>
+                    <div class="button button-1"><h1>5</h1><h2>STUDENT <br> TEACHER <br> FEEDBACK</h2></div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="marine-q">
-                    <h1>Reduce CO2 Emissions</h1>
-                    <p>Implement policies and regulations to reduce greenhouse gas emissions, 
-                        particularly carbon dioxide. Promote renewable energy sources, 
-                        energy efficiency, and carbon capture technologies.
-                    </p>
-                    <img id="quickFix" src="./main/img/co2.avif" alt="">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="marine-q q1">
-                    <h1>Transition to Sustainable Fisheries</h1>
-                    <p>Implement and enforce sustainable fisheries management practices to 
-                        reduce overfishing. Protect and restore critical marine habitats
-                        that support fisheries.                        
-                    </p>
-                    <img id="quickFix" src="./main/img/sus-fish.jpg" alt="">
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="marine-q">
-                    <h1>International Cooperation:</h1>
-                    <p>Collaborate on research, monitoring, and sharing best practices.</p>
-                    <br><br>
-                    <h1>Regular Review and Adaptation</h1>
-                    <p>Continuously evaluate the effectiveness of implemented policies and adapt strategies as new information becomes available.
-                    </p>
-                </div>
-            </div>
-        </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </section>
+        </section>
 
-
+    </div>
 
     <footer>
-        <div class="cta">    
-            <h1>JOIN THE WAVES!</h1>
-            <div class="submit">  
-                <input type="email" placeholder="e-mail">
-                <button type="submit">Submit!</button>
+        <div class="skull">
+            <h1><b>L</b>ogo</h1>
+            <div class="contact">    
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
             </div>
         </div>
 
-
-        <div class="foot-cred">
-            By- Ameen Ahmed (AKA) Doodle 😴
+        <div class="h3">
+            <h3><b>A</b>meen</h3>
+            <h3><b>K</b>haleel</h3>
+            <h3><b>S</b>reelesh</h3>
+            <h3><b>H</b>aazim</h3>
         </div>
     </footer>
 
@@ -314,15 +145,25 @@
 
 
 
-    
-
-    <script src="./main/js/app.js"></script>
-    <script src="./main/js/animate.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 
-    <script src="./main/js/chart.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
