@@ -289,8 +289,9 @@
             <h1>JOIN THE WAVES!</h1>
             <div class="submit">  
                 <input type="email" placeholder="e-mail">
-                <button type="submit">Submit!</button>
+                <button type="submit" onclick="welcome()">Submit!</button>
             </div>
+            <textarea name="comment" id="Comment" rows="10" placeholder="Comment..."></textarea>
         </div>
 
 
@@ -323,6 +324,12 @@
 
 
     <script src="./main/js/chart.js"></script>
+
+    <script>
+        function welcome() {
+            window.open("./submit.html")
+        }
+    </script>
 
 </body>
 </html>
